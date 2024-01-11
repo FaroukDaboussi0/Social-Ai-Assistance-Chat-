@@ -8,7 +8,7 @@ public class UserService
     }
     public User GetUserByName(string username)
     {
-        // Assuming _context is your DbContext containing the Users DbSet
+       
         return _context.Users.FirstOrDefault(u => u.Name == username);
     }
     public User getuserbyid(int id){

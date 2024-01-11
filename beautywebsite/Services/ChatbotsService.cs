@@ -9,8 +9,8 @@ public class ChatbotsService
     public ChatbotsService(HttpClient httpClient)
     {
         this.httpClient = httpClient;
-        this.httpClient.BaseAddress = new Uri("http://127.0.0.1:8000/"); // Set your API base address
-        // You might also want to configure other settings like headers, timeout, etc., for your HttpClient instance
+        this.httpClient.BaseAddress = new Uri("http://127.0.0.1:8000/"); // API base address
+       
     }
 
     public async Task<string> GetReplyFromLocalAPI(HttpMessageRequest httpMessageRequest)
@@ -22,7 +22,7 @@ public class ChatbotsService
         // Create HttpContent from the serialized object
         HttpContent content = new StringContent(serializedRequest, Encoding.UTF8, "application/json");
         Console.WriteLine(serializedRequest);
-        // Send a POST request to your local API with the request body
+        // Send a POST request to  local API with the request body
         HttpResponseMessage response = await httpClient.PostAsync("api/endpoint", content);
 
         // Ensure the request was successful before reading the content

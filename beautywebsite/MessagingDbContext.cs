@@ -26,7 +26,7 @@ public class MessagingDbContext : DbContext
             .HasForeignKey(m => m.ReceiverId)
             .OnDelete(DeleteBehavior.Restrict);
 
-        // Additional configurations or model relationships can be added here...
+       
 
         base.OnModelCreating(modelBuilder);
     }

@@ -1,9 +1,10 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
+import requests
 
 app = FastAPI()
 
-# Replace 'your_msg91_api_key' with your actual MSG91 API key
+
 MSG91_API_KEY = '413223AO4rVhGdwVtZ65988d20P1'
 
 class PhoneNumber(BaseModel):
@@ -18,8 +19,7 @@ def send_verification_code(phone_number):
     payload = {
         "message": "Your verification code is {{code}}.",
         "mobile": phone_number,
-        "sender": "SENDER_ID"  # Replace SENDER_ID with your sender ID
-        # Additional parameters for MSG91 can be added here as required
+        "sender": "SENDER_ID"  
     }
     response = requests.post(url, json=payload)
     return response.json()
@@ -31,12 +31,12 @@ def verify_code(phone_number, user_entered_code):
         "mobile": phone_number
     }
     response = requests.post(url, json=payload)
-    return response.json()['type']  # Adjust this based on MSG91 response
+    return response.json()['type'] 
 
 @app.post("/api/send")
 async def send_code(phone_number: PhoneNumber):
     response = send_verification_code(phone_number.number)
-    return {"status": response['type']}  # Adjust based on MSG91 response
+    return {"status": response['type']}  
 
 @app.post("/api/verify")
 async def verify_code(verification_data: VerificationData):

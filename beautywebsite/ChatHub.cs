@@ -11,7 +11,7 @@ public class ChatHub : Hub
     }
     public async Task SendMessageToChat(string chatname, string message)
 
-    {
+    {   // Broadcast message to all clients
         await Clients.All.SendAsync("SendMessage",chatname,message);
         User chat = _userService.GetUserByName(chatname) ;
         Console.WriteLine(chat.Id);

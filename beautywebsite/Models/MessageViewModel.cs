@@ -10,7 +10,7 @@ public class MessageViewModel
   public String lastmsg;
  
 public MessageViewModel()
-    {   if (latestId==6)
+    {   if (latestId==6) //6 is the number of chatbots
             {Id=1;
             latestId=1;
             }
@@ -19,6 +19,6 @@ public MessageViewModel()
    
         Id = ++latestId;  }// Increment latestId and assign it to the Id property
         messageschat = new List<Message>();
-        // Other initializations if needed
+        
     }
 }

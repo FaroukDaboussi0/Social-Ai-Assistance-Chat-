@@ -7,13 +7,13 @@ public class Message
     public int Id { get; set; }
     
     public int SenderId { get; set; }
-      [JsonIgnore()]
-  [IgnoreDataMember]
+    [JsonIgnore()]
+    [IgnoreDataMember]
     public User Sender { get; set; }
    
     public int ReceiverId { get; set; }
-   [JsonIgnore()]
-  [IgnoreDataMember]
+    [JsonIgnore()]
+    [IgnoreDataMember]
     public User Receiver { get; set; }
 
     

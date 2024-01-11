@@ -6,16 +6,16 @@ public class User
     public int Id { get; set; }
     public string Name { get; set; }
     public string imagepath { get; set; } = "C:/Users/Asus/Desktop/videos/loggeduser.PNG";
-     [JsonIgnore()]
-  [IgnoreDataMember]
+    [JsonIgnore()]
+    [IgnoreDataMember]
     public string secondname{get;set;}
 
-  [JsonIgnore()]
-  [IgnoreDataMember]
+    [JsonIgnore()]
+    [IgnoreDataMember]
     public ICollection<Message> ?SentMessages { get; set; }
     
-  [JsonIgnore()]
-  [IgnoreDataMember]
+    [JsonIgnore()]
+    [IgnoreDataMember]
   
     public ICollection<Message> ?ReceivedMessages { get; set; }
    

@@ -13,7 +13,7 @@ app2 = FastAPI()
 
 
 
-# Define the Message model
+
 class Message(BaseModel):
   
     Id: int
@@ -21,10 +21,9 @@ class Message(BaseModel):
     ReceiverId: int  
     Content: str
     Thread: int 
-    Date: datetime # Adjust the date format as needed
+    Date: datetime 
 
 
-# Define the HttpMessageRequest model
 class HttpMessageRequest(BaseModel):
 
    
@@ -76,7 +75,7 @@ def generateresponse(context :str , messages:str,lastmsg:str,lastdate:str) -> st
     return completion.choices[0].message.content 
 
 
-# Endpoint to receive HttpMessageRequest and respond with "hello"
+
 @app2.post("/api/endpoint")
 async def process_request(request_data: HttpMessageRequest):
     # Access the received data
@@ -84,7 +83,5 @@ async def process_request(request_data: HttpMessageRequest):
     string_messages = to_readable_msg(request_data.messageschat)
     context = get_context_from_chatID(request_data.chatid)
     response=generateresponse(context,string_messages,request_data.lastmsg,request_data.datelastmessage)
-    # Access other fields and perform necessary operations if needed
-
-    # Respond with "hello"
+    
     return  response
