@@ -1,0 +1,481 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\.gitignore",
+      "PackagePath": "staticwebassets\\.gitignore"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\Portfolio.psd",
+      "PackagePath": "staticwebassets\\Portfolio.psd"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\README.md",
+      "PackagePath": "staticwebassets\\README.md"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\audio\\newmsgnotif.mp3",
+      "PackagePath": "staticwebassets\\audio\\newmsgnotif.mp3"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\audio\\sendmsg.mp3",
+      "PackagePath": "staticwebassets\\audio\\sendmsg.mp3"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\base\\_body-element.sass",
+      "PackagePath": "staticwebassets\\css\\base\\_body-element.sass"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\base\\_fonts.scss",
+      "PackagePath": "staticwebassets\\css\\base\\_fonts.scss"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\base\\_normalize.scss",
+      "PackagePath": "staticwebassets\\css\\base\\_normalize.scss"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\base\\_selection-colors.sass",
+      "PackagePath": "staticwebassets\\css\\base\\_selection-colors.sass"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\base\\_vars.sass",
+      "PackagePath": "staticwebassets\\css\\base\\_vars.sass"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\demo.css",
+      "PackagePath": "staticwebassets\\css\\demo.css"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\fonts\\Montserrat-Black.eot",
+      "PackagePath": "staticwebassets\\css\\fonts\\Montserrat-Black.eot"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\fonts\\Montserrat-Black.svg",
+      "PackagePath": "staticwebassets\\css\\fonts\\Montserrat-Black.svg"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\fonts\\Montserrat-Black.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\Montserrat-Black.ttf"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\fonts\\Montserrat-Black.woff",
+      "PackagePath": "staticwebassets\\css\\fonts\\Montserrat-Black.woff"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\fonts\\Montserrat-Bold.eot",
+      "PackagePath": "staticwebassets\\css\\fonts\\Montserrat-Bold.eot"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\fonts\\Montserrat-Bold.svg",
+      "PackagePath": "staticwebassets\\css\\fonts\\Montserrat-Bold.svg"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\fonts\\Montserrat-Bold.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\Montserrat-Bold.ttf"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\fonts\\Montserrat-Bold.woff",
+      "PackagePath": "staticwebassets\\css\\fonts\\Montserrat-Bold.woff"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\fonts\\Montserrat-Light.eot",
+      "PackagePath": "staticwebassets\\css\\fonts\\Montserrat-Light.eot"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\fonts\\Montserrat-Light.svg",
+      "PackagePath": "staticwebassets\\css\\fonts\\Montserrat-Light.svg"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\fonts\\Montserrat-Light.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\Montserrat-Light.ttf"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\fonts\\Montserrat-Light.woff",
+      "PackagePath": "staticwebassets\\css\\fonts\\Montserrat-Light.woff"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\fonts\\Montserrat-Regular.eot",
+      "PackagePath": "staticwebassets\\css\\fonts\\Montserrat-Regular.eot"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\fonts\\Montserrat-Regular.svg",
+      "PackagePath": "staticwebassets\\css\\fonts\\Montserrat-Regular.svg"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\fonts\\Montserrat-Regular.ttf",
+      "PackagePath": "staticwebassets\\css\\fonts\\Montserrat-Regular.ttf"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\fonts\\Montserrat-Regular.woff",
+      "PackagePath": "staticwebassets\\css\\fonts\\Montserrat-Regular.woff"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\layouts\\_grid.sass",
+      "PackagePath": "staticwebassets\\css\\layouts\\_grid.sass"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\main.sass",
+      "PackagePath": "staticwebassets\\css\\main.sass"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\modules\\_about.sass",
+      "PackagePath": "staticwebassets\\css\\modules\\_about.sass"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\modules\\_contact.sass",
+      "PackagePath": "staticwebassets\\css\\modules\\_contact.sass"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\modules\\_device-notification.sass",
+      "PackagePath": "staticwebassets\\css\\modules\\_device-notification.sass"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\modules\\_header.sass",
+      "PackagePath": "staticwebassets\\css\\modules\\_header.sass"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\modules\\_hire.sass",
+      "PackagePath": "staticwebassets\\css\\modules\\_hire.sass"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\modules\\_intro.sass",
+      "PackagePath": "staticwebassets\\css\\modules\\_intro.sass"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\modules\\_outer-nav.sass",
+      "PackagePath": "staticwebassets\\css\\modules\\_outer-nav.sass"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\modules\\_section.sass",
+      "PackagePath": "staticwebassets\\css\\modules\\_section.sass"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\modules\\_side-nav.sass",
+      "PackagePath": "staticwebassets\\css\\modules\\_side-nav.sass"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\modules\\_work.sass",
+      "PackagePath": "staticwebassets\\css\\modules\\_work.sass"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\img\\about-history.jpg",
+      "PackagePath": "staticwebassets\\img\\about-history.jpg"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\img\\about-philosophy.jpg",
+      "PackagePath": "staticwebassets\\img\\about-philosophy.jpg"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\img\\about-visual.png",
+      "PackagePath": "staticwebassets\\img\\about-visual.png"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\img\\about-winners.jpg",
+      "PackagePath": "staticwebassets\\img\\about-winners.jpg"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\img\\contact-visual.png",
+      "PackagePath": "staticwebassets\\img\\contact-visual.png"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\img\\introduction-visual.png",
+      "PackagePath": "staticwebassets\\img\\introduction-visual.png"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\img\\loggeduser.png",
+      "PackagePath": "staticwebassets\\img\\loggeduser.png"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\img\\work-alex-nowak.jpg",
+      "PackagePath": "staticwebassets\\img\\work-alex-nowak.jpg"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\img\\work-metiew-smith.jpg",
+      "PackagePath": "staticwebassets\\img\\work-metiew-smith.jpg"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\img\\work-victory.jpg",
+      "PackagePath": "staticwebassets\\img\\work-victory.jpg"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\js\\functions-min.js",
+      "PackagePath": "staticwebassets\\js\\functions-min.js"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\js\\functions.js",
+      "PackagePath": "staticwebassets\\js\\functions.js"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\js\\vendor\\hammer-2.0.8.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\hammer-2.0.8.js"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\js\\vendor\\jquery-2.2.4.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\jquery-2.2.4.min.js"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\dotnetproj\\ChatProject\\beautywebsite\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.beautywebsite.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.beautywebsite.props",
+      "PackagePath": "build\\beautywebsite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.beautywebsite.props",
+      "PackagePath": "buildMultiTargeting\\beautywebsite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.beautywebsite.props",
+      "PackagePath": "buildTransitive\\beautywebsite.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
