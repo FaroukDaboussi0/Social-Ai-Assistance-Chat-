@@ -1,0 +1,80 @@
+@model List<MessageViewModel>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Our Support</title>
+    <link rel="icon" type="image/png" href="https://th.bing.com/th/id/R.78399594cd4ce07c0246b0413c95f7bf?rik=Nwo0AAuaJO%2fPEQ&pid=ImgRaw&r=0">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="~/css/style.css"> <!-- Link to your CSS file -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <!-- Including jQuery and SignalR libraries -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/3.1.11/signalr.min.js"></script>
+</head>
+<body>
+    <main class="cd__main">
+        <!-- Start of the main content -->
+        <div class="wrapper">
+            <div class="container">
+                <!-- Left section -->
+                <div class="left">
+                    <div class="top">
+                        <input type="text" placeholder="Search" />
+                        <a href="javascript:;" class="search"></a>
+                    </div>
+                    <!-- List of people or conversations -->
+                    <ul class="people">
+                    @foreach (var message in Model)
+                    {
+                        <li class="person" data-chat="@message.chat.Name">
+                            <img src="@message.chat.imagepath" alt="" />
+                            <span class="name">@message.chat.secondname</span>
+                            <span class="time">@message.datelastmessage</span>
+                            <span class="preview">@Html.Raw(message.lastmsg.Length > 15 ? message.lastmsg.Substring(0, 15) + "..." : message.lastmsg)</span>
+                        </li>
+                    }
+                    </ul>
+                </div>
+                <!-- Right section -->
+                <div class="right">
+                    <div class="top">
+                        <span>To: <span class="name">Our Support</span></span>
+                    </div>
+                    
+                    <!-- Chat containers -->
+                    @foreach (var conversation in Model)
+                    {
+                        <div class="chatContainer" id="chat @conversation.Id" style="overflow-y: auto; max-height: 80%; ">
+                            <div class="chat" data-chat="@conversation.chat.Name">
+                                <!-- Messages within each chat -->
+                                @foreach (var message in conversation.messageschat)
+                                {
+                                    @if (message.SenderId == 1)
+                                    {
+                                        <div class="bubble you">@message.Content</div>
+                                    }
+                                    else
+                                    {
+                                        <div class="bubble me">@message.Content</div>
+                                    }
+                                }
+                            </div>
+                        </div>
+                    }
+                    <!-- Message input -->
+                    <div class="write">
+                        <a href="javascript:;" class="write-link attach"></a>
+                        <input type="text" id="messageInput" />
+                        <a href="javascript:;" class="write-link smiley"></a>
+                        <a href="javascript:;" class="write-link send" id="sendLink"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END EDMO HTML -->
+    </main>
+    <!-- Script for JavaScript interactions -->
+    <script src="~/js/script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
